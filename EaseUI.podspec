@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'EaseUI'
-  spec.version      = '3.3.2'
+  spec.version      = '3.3.2-0.1.0'
   spec.license       = { :type => 'Copyright', :text => 'EaseMob Inc. 2017' }
   spec.summary      = 'EaseMob UI Kit'
   spec.homepage     = 'https://github.com/EvoIos/easeui-ios-hyphenate-cocoapods'
