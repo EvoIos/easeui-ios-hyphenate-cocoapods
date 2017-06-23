@@ -17,6 +17,7 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 
 #import "NSDate+Category.h"
+#import "UIImage+EMGIF.h"
 #import "EaseUsersListViewController.h"
 #import "EaseMessageReadManager.h"
 #import "EaseEmotionManager.h"
@@ -1051,7 +1052,7 @@
                 if (_dataSource && [_dataSource respondsToSelector:@selector(emotionURLFormessageViewController:messageModel:)]) {
                     EaseEmotion *emotion = [_dataSource emotionURLFormessageViewController:self messageModel:model];
                     if (emotion) {
-                        model.image = [UIImage sd_animatedGIFNamed:emotion.emotionOriginal];
+                        model.image = [UIImage emsd_animatedGIFNamed:emotion.emotionOriginal];
                         model.fileURLPath = emotion.emotionOriginalURL;
                     }
                 }

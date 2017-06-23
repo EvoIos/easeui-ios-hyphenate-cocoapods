@@ -1,3 +1,36 @@
-PODFILE CHECKSUM: 03b3240c1b389bd68322e6c9083edf2ca9948b2c
+PODS:
+  - DACircularProgress (2.3.1)
+  - EaseUILite (3.3.2):
+    - HyphenateLite (= 3.3.2)
+    - MJRefresh (~> 3.1.0)
+    - MWPhotoBrowser (~> 2.1.2-0.1.1)
+  - HyphenateLite (3.3.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - MWPhotoBrowser (2.1.2-0.1.1):
+    - DACircularProgress (~> 2.3.1)
+    - MBProgressHUD (~> 1.0)
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - EaseUILite (from `../`)
+
+EXTERNAL SOURCES:
+  EaseUILite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  EaseUILite: 47883da5173586571f0dba77a337a7dc7851b172
+  HyphenateLite: 54ffda162deec2cedf156185a707b86678ae914a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MWPhotoBrowser: 4c62a809426795b5416b72ff2fc3757875f231b2
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 5ec3e66f9de60bd608be896888bab31e6b9e1e1a
 
 COCOAPODS: 1.2.1
